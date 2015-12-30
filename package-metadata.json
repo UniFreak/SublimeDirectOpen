@@ -1,0 +1,8 @@
+{
+    "version" : "1.0.0",
+    "sublime_text" : "*",
+    "platforms" : ["*"],
+    "description" : "Open and edit config file quickly",
+    "url" : "https://github.com/unifreak/SublimeDirectEdit",
+    "dependencies": []
+}
