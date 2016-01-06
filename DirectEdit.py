@@ -19,4 +19,5 @@ class DirectEditCommand(sublime_plugin.TextCommand):
             )
 
     def openFile(self, index):
-        self.view.window().open_file(self.paths[index])
+        if index != -1:
+            self.view.window().open_file(self.paths[index])
