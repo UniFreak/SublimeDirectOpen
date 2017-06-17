@@ -1,1 +1,0 @@
-{"description": "Pulgin for sublime text 3 to directly open frequently edited files", "dependencies": [], "url": "https://github.com/UniFreak/SublimeDirectEdit", "platforms": ["*"], "version": "1.0.2", "sublime_text": "*"}
