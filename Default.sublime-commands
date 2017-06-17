@@ -1,6 +1,6 @@
 [
   {
-    "caption": "Direct Edit",
-    "command": "direct_edit"
+    "caption": "Direct Open",
+    "command": "direct_open"
   }
 ]

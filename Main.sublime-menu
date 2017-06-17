@@ -10,17 +10,17 @@
                 "children":
                 [
                     {
-                        "caption": "DirectEdit",
+                        "caption": "DirectOpen",
                         "children":
                         [
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/DirectEdit/DirectEdit.sublime-settings"},
+                                "args": {"file": "${packages}/DirectOpen/DirectOpen.sublime-settings"},
                                 "caption": "Settings – Default"
                             },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/User/SublimeDirectEdit.sublime-settings"},
+                                "args": {"file": "${packages}/User/DirectOpen.sublime-settings"},
                                 "caption": "Settings – User"
                             },
                             { "caption": "-" }
