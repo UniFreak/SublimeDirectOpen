@@ -2,9 +2,8 @@ import sublime, sublime_plugin
 
 class DirectOpenCommand(sublime_plugin.TextCommand):
     def run(self, edit):
-        fromSettingFile = 'DirectOpen.' + sublime.platform() + '.sublime-settings'
-        settings = sublime.load_settings(fromSettingFile)
-
+        allSettings = sublime.load_settings('DirectOpen.sublime-settings')
+        settings = allSettings.get(sublime.platform())
         files = settings.get('files')
         options = []
         self.paths = []

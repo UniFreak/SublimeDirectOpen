@@ -1,0 +1,29 @@
+{
+	"windows" : {
+		"files": [
+			{
+				"title" : "hosts",
+				"location" : "C:/Windows/System32/drivers/etc/hosts"
+			}
+		]
+
+	},
+
+	"osx" : {
+		"files": [
+			{
+				"title" : "hosts",
+				"location" : "/etc/hosts"
+			}
+		]
+	},
+
+	"linux" : {
+		"files": [
+			{
+				"title" : "hosts",
+				"location" : "/etc/hosts"
+			}
+		]
+	},
+}
