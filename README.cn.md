@@ -1,4 +1,4 @@
-`Direct Open` Sublime Text 包能根据配置, 通过快捷键一键打开常用的文件
+Sublime Text 的 `Direct Open` 包能根据配置, 通过快捷键快速打开常用的文件以编辑
 
 ## 安装
 
@@ -9,12 +9,12 @@
 
 另一种方式是直接通过克隆源码安装:
 
-1. 进入 sublime text 的扩展包目录
+1. 进入 sublime text 的包目录
 2. 运行 `git clone https://github.com/UniFreak/SublimeDirectOpen.git`
 
 ## 配置 & 使用
 
-已经提供了一个默认的 `Host` 文件配置, 你可以在 `files` 配置项下面, 依照 `Host` 的配置添加额外的文件 (title) 及其路径 (location). 如下:
+已经提供了一个默认的 `Host` 文件配置, 你可以在 `files` 配置项下面, 依照 `Host` 的配置添加额外的文件名 (`title` 配置项) 及其路径 (`location` 配置项). 如下:
 
 ```json
 {
