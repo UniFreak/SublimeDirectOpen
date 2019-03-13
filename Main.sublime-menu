@@ -15,7 +15,7 @@
                         [
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/DirectOpen/DirectOpen.sublime-settings"},
+                                "args": {"file": "${packages}/DirectOpen/DirectOpen (${platform}).sublime-settings"},
                                 "caption": "Settings – Default"
                             },
                             {

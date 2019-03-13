@@ -1,10 +1,25 @@
 import sublime, sublime_plugin
 
+settings = {}
+
+def plugin_loaded():
+    global settings
+
+    # if user-setting file is empty, load default setting into user-setting file
+    defaultFile = 'DirectOpen ({}).sublime-settings'.format(sublime.platform())
+    userFile = 'DirectOpen.sublime-settings'
+
+    userSettings = sublime.load_settings(userFile)
+    if userSettings.get('files') is None:
+        default = sublime.load_settings(defaultFile)
+        userSettings.set('files', default.get('files'))
+        sublime.save_settings(userFile)
+
+    settings = userSettings
+
+
 class DirectOpenCommand(sublime_plugin.TextCommand):
     def run(self, edit):
-        fromSettingFile = 'DirectOpen.' + sublime.platform() + '.sublime-settings'
-        settings = sublime.load_settings(fromSettingFile)
-
         files = settings.get('files')
         options = []
         self.paths = []
