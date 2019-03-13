@@ -1,5 +1,3 @@
-# Sublime 3: Direct Open plugin
-
 Config the file paths that you frequently have to edit, then you can hit `ctrl+shift+o` to directly open them and edit
 
 
