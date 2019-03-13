@@ -14,15 +14,15 @@
 
 ## 配置 & 使用
 
-已经提供了一个默认的 `Host` 文件配置, 你可以在 `files` 配置项下面, 依照 `Host` 的配置添加额外的文件及其路径. 如下:
+已经提供了一个默认的 `Host` 文件配置, 你可以在 `files` 配置项下面, 依照 `Host` 的配置添加额外的文件 (title) 及其路径 (location). 如下:
 
 ```json
 {
     "files":
     [
         {
-            "title" : "Host", // 文件名
-            "location" : "/etc/hosts" // 文件路径 (绝对路径)
+            "title" : "Host",
+            "location" : "/etc/hosts"
         },
     ]
 }
